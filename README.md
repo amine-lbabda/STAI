@@ -39,3 +39,5 @@ Then,using gradio api, we built really quickly a little webapp which when we upl
 **Claude-AI**:[Claude AI](https://claude.ai/)
 
 **MrdBourke course about tensorflow (source of inspiration to learn more about TensorFlow and PyTorch)**: [MrdBourke course](https://dev.mrdbourke.com/tensorflow-deep-learning/)
+
+**Gradio documentation**: [Gradio](https://www.gradio.app/guides/image-classification-in-tensorflow)
