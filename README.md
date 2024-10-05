@@ -19,10 +19,11 @@ The dataset used in this case is EuroSAT dataset as it is provided in the drive 
 
 Well, first of all we wanted ofc a pre-trained model due to it's "easy-to-use" curve learning. However, we just had a very bad accuracy so we turned out to a custom CNN and thanks to Copilot -again- we have made a CNN modal inspired from him and also the inspiration goes for TinyVGG model. In fact, our model  uses many layers under the hood:
 
-1. `tf.keras.layers.Conv2D` which is a convultional 2D layer that extracts features from images that distinguish every picture and that's very important for the classification with a ReLu activation function which is important for our classification
-2. `tf.keras.layers.MaxPooling2D` its purpose is to reduce the parameters and the computational power of the network
-3. `tf.keras.layers.Flatten` to make the vector from 2D to 1D array
-4. `tf.keras.layers.Dense` to connect all layers to each other.
+- 1. `tf.keras.layers.Conv2D` which is a convultional 2D layer that extracts features from images that distinguish every picture and that's very important for the classification with a ReLu activation function which is important for our classification
+- 2. `tf.keras.layers.MaxPooling2D` its purpose is to reduce the parameters and the computational power of the network
+- 3. `tf.keras.layers.Flatten` to make the vector from 2D to 1D array
+- 4. `tf.keras.layers.Dense` to connect all layers to each other.
+Then,using gradio api, we built really quickly a little webapp which when we upload a satellite image we recieved from our satellites, we can see if the image does contain life on it. Because we filtred EuroStat dataset to only include categories that are related only to nature. (Thanks Bechir for this valuable advice !)
 
 ## Sources
 
