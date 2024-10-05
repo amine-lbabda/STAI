@@ -17,7 +17,7 @@ The dataset used in this case is EuroSAT dataset as it is provided in the drive 
 
 ## How we have just made it?
 
-Well, first of all we wanted ofc a pre-trained model due to it's "easy-to-use" curve learning. However, we just had a very bad accuracy so we turned out to a custom CNN and thanks to Copilot -again- we have made a CNN modal inspired from him and also the inspiration goes for TinyVGG model which uses under the hood:
+Well, first of all we wanted ofc a pre-trained model due to it's "easy-to-use" curve learning. However, we just had a very bad accuracy so we turned out to a custom CNN and thanks to Copilot -again- we have made a CNN modal inspired from him and also the inspiration goes for TinyVGG model. In fact, our model  uses many layers under the hood:
 
 1. `tf.keras.layers.Conv2D` which is a convultional 2D layer that extracts features from images that distinguish every picture and that's very important for the classification with a ReLu activation function which is important for our classification
 2. `tf.keras.layers.MaxPooling2D` its purpose is to reduce the parameters and the computational power of the network
