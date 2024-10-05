@@ -8,7 +8,7 @@ This is the README of our final project which is related to ATEC hackation with 
 
 ## Why we opted for TensorFlow as a framework?
 
-Due to he flexibility and its the most friendly framework as a begineer AI and also explaining. In fact, instead of writing long classes like `PyTorch`, we can use `tensorflow` in order to accelerate the work due to the shortage of time. If we have enough time then we will opt for `PyTorch` for its professionality and its usage in research.
+Due to he flexibility and its the most friendly framework as a begineer AI and also explaining. In fact, instead of writing long classes like `PyTorch`, we can use `tensorflow` in order to accelerate the work due to the shortage of time. If we had enough time then we will opt for `PyTorch` for its professionality and its usage in research.
 
 ## Dataset
 
