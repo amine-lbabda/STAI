@@ -30,5 +30,4 @@ Well, first of all we wanted ofc a pre-trained model due to it's "easy-to-use" c
 - **EuroSat dataset:** <https://www.tensorflow.org/datasets/catalog/eurosat?hl=fr#eurosatrgb_default_config>
 - **TinyVGG modal explainer**:<https://poloclub.github.io/cnn-explainer/#:~:text=In%20TinyVGG,%20the%20dot%20product%20operation%20uses%20a%20stride%20of#:~:text=In%20TinyVGG,%20the%20dot%20product%20operation%20uses%20a%20stride%20of>
 
-
 - **Temporary webapp link (it expires within 72 hours)**:<https://7e5ab0603374d5b374.gradio.live/>
